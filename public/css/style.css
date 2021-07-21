@@ -47,7 +47,9 @@ footer a {
   transition: all 0.2s;
   display: inline-block;
 }
-
+header a {
+  margin-right: 16px;
+}
 header a:hover {
   text-decoration: underline;
   text-decoration-color: cadetblue;
@@ -65,10 +67,6 @@ footer a:hover {
   transform: skewX(-13deg) rotate(13deg);
   background-color: rgba(1, 50, 46, 0.301);
   color: #fff;
-}
-
-.portrait {
-  width: 250px;
 }
 
 input {
@@ -101,6 +99,7 @@ button:active {
 
 .form-weather {
   margin-left: 15px;
+  margin-top: 20px;
 }
 
 ::selection {
