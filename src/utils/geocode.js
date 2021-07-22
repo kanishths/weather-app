@@ -1,5 +1,5 @@
 const request = require("request");
-const { accessToken } = require("../config");
+const { accessToken } = require("../config.js");
 
 const geocode = (address, callback) => {
   const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(
